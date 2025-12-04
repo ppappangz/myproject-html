@@ -1,0 +1,16 @@
+h1{
+    background: rgb(231, 163, 231);
+}
+h2{
+    background: rgb(146, 236, 252);
+}
+h3{
+    background: rgba(116, 206, 98, 0.753);
+}
+body{
+    text-align: center;
+    background: rgb(104, 162, 236);
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
