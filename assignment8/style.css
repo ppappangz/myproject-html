@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* หากไม่มี font Poppins อาจต้องลบออก หรือเพิ่ม <link> ใน HTML */
+    font-family: 'Poppins', sans-serif; 
+    background-color: #fff9e6;
+    color: #333;
+}
+
+#nav-top {
+    width: 100%;
+    height: 60px;
+    background-color: #f7d794; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+#layer {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* สไตล์สำหรับกล่องสินค้าแต่ละชิ้นที่ JS สร้างขึ้น (product-box) */
+#layer div {
+    width: 220px;
+    border: none;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#layer div:hover {
+    transform: translateY(-5px);
+    /* เปลี่ยนสี box-shadow ให้ดูชัดเจน */
+    box-shadow: 0 8px 16px rgba(222, 82, 235, 0.363); 
+}
+
+/* สไตล์ที่สำคัญสำหรับรูปภาพ: กำหนดขนาดที่ชัดเจน */
+#layer img {
+    border-radius: 10px;
+    object-fit: cover;
+    /* 🌟 กำหนดขนาดที่ย้ายมาจาก JS เพื่อให้รูปภาพเต็มพื้นที่ตามต้องการ */
+    width: 100%; 
+    height: 250px; 
+    display: block;
+}
+
+h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #222;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}

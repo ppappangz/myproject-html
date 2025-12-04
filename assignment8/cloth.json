@@ -1,0 +1,47 @@
+{
+	"top1": {
+		"brand": "A.K.O.O Clothing",
+		"price": "200",
+		"img": "pic/top1.jpg"
+	},
+	"top2": {
+		"brand": "B.K.T Clothing",
+		"price": "500",
+		"img": "pic/top2.jpg"
+	},
+	"top3": {
+		"brand": "Nike",
+		"price": "800",
+		"img": "pic/top3.jpg"
+	},
+	"top4": {
+		"brand": "Adidas",
+		"price": "750",
+		"img": "pic/top4.jpg"
+	},
+	"top5": {
+		"brand": "Uniqlo",
+		"price": "400",
+		"img": "pic/top5.jpg"
+	},
+	"top6": {
+		"brand": "Zara",
+		"price": "950",
+		"img": "pic/top6.jpg"
+	},
+	"top7": {
+		"brand": "H&M",
+		"price": "350",
+		"img": "pic/top7.jpg"
+	},
+	"top8": {
+		"brand": "Levi's",
+		"price": "1200",
+		"img": "pic/top8.jpg"
+	},
+	"top9": {
+		"brand": "Gucci",
+		"price": "5000",
+		"img": "pic/top9.jpg"
+	}
+}
